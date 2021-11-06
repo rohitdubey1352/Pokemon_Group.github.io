@@ -1,0 +1,46 @@
+.card-continer{
+    display:flex;
+    flex-direction:column;
+    background-color: #fff;
+    border: 10px solid transparent;
+    border-radius: 5px;
+    padding: 1rem;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    border-radius: 10px;
+    box-shadow:  -20px -5px 60px #A6FFCB;
+    font-family: 'Righteous', cursive;
+}
+
+.card-continer:hover{
+    transform: scale(1.05);
+}
+
+img{
+    width: 160px;
+    height: 180px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a, a:link, a:visited, a:focus, a:active {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Small devices (landscape phones, 576px and above till next break point) */
+@media (min-width: 576px) { 
+
+}
+
+/* Medium devices (tablets, 768px and above till next break point) */
+@media (min-width: 768px) { 
+    
+}
+
+/* Large devices (desktops, 992px and above till next break point) */
+@media (min-width: 992px) { 
+
+}
